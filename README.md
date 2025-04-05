@@ -87,15 +87,3 @@ To eliminate reliance on a trusted relayer, we can integrate **Zero‑Knowledge 
 > - **Security:** On‑chain verification enforces correctness without revealing user data  
 
 ---
-
-### Diagram Creation Tips
-
-- **L1 Region (Sepolia):** Box containing MyT & L1Bridge  
-- **Off‑Chain Relayer:** Center box with arrows to both L1 and L2  
-- **L2 Region (opBNB):** Box containing L2Bridge & MyTWrapped  
-- **Arrows:**  
-  - Solid for on‑chain calls (`depositToL2`, `withdrawToL1`, `mintOnL2`, `releaseOnL1`)  
-  - Dashed for events (`DepositInitiation`, `WithdrawalInitiated`)  
-  - Label each arrow with function/event name and nonce increment  
-
-This refined structure and detail will showcase both your architectural insight and technical rigor for your internship submission.
